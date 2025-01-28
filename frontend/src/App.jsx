@@ -6,7 +6,7 @@ import ProductList from '../src/ProductList';
 const App = () => {
     return (
         <Router>
-            <nav>
+            <nav style={{ display: 'flex', gap: '16px' }}>
                 <Link to="/categories">Category Master</Link>
                 <Link to="/products">Product Master</Link>
                 <Link to="/product-list">Product List</Link>
